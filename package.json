@@ -31,7 +31,6 @@
       "probot-app-license",
       "probot-app-merge-pr",
       "probot-app-migrations",
-      "probot-app-pr-title",
       "probot-app-release",
       "probot-app-release-notes",
       "probot-app-release-pr-compare",
