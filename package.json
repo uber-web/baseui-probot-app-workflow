@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "node-fetch": "^2.2.0",
-    "probot": "7.0.1",
+    "probot": "7.1.1",
     "probot-app-deploy": "1.0.3",
     "probot-app-label-docs-pr": "1.0.2",
     "probot-app-label-release-pr": "1.0.4",
     "probot-app-license": "1.0.2",
     "probot-app-merge-pr": "1.0.3",
     "probot-app-migrations": "1.0.5",
-    "probot-app-pr-label": "1.1.0",
+    "probot-app-pr-label": "1.2.0",
     "probot-app-pr-title": "^1.1.5",
     "probot-app-release": "1.0.4",
     "probot-app-release-notes": "1.0.6",
@@ -42,9 +42,9 @@
     "node": "^8.9.0"
   },
   "devDependencies": {
-    "babel-jest": "^23.2.0",
+    "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
-    "jest-cli": "^23.3.0",
+    "jest-cli": "^23.6.0",
     "jest-environment-node": "23.4.0",
     "smee-client": "^1.0.2"
   },
