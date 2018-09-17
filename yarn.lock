@@ -4192,11 +4192,12 @@ private@^0.1.6, private@^0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot-app-deploy@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/probot-app-deploy/-/probot-app-deploy-1.0.3.tgz#7b2190ece4afde96a577c88307f8359fa17839ab"
+probot-app-deploy@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/probot-app-deploy/-/probot-app-deploy-1.1.0.tgz#8aadd5cc054b14d6621cebea1a2927157dcc6611"
   dependencies:
-    probot "^3.0.0"
+    node-fetch "^2.2.0"
+    probot "7.0.1"
 
 probot-app-label-docs-pr@1.0.2:
   version "1.0.2"
@@ -4318,6 +4319,31 @@ probot@5.0.1:
     resolve "^1.4.0"
     semver "^5.4.1"
 
+probot@7.0.1, probot@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-7.0.1.tgz#8ee68e0f39b25b840243c7a8b9ae1ce7641fb403"
+  dependencies:
+    "@octokit/rest" "^15.9.4"
+    "@octokit/webhooks" "^3.1.1"
+    bottleneck "^2.4.0"
+    bunyan "^1.8.12"
+    bunyan-format "^0.2.1"
+    bunyan-sentry-stream "^1.1.0"
+    cache-manager "^2.4.0"
+    commander "^2.11.0"
+    dotenv "~6.0.0"
+    express "^4.16.2"
+    express-async-errors "^3.0.0"
+    hbs "^4.0.1"
+    js-yaml "^3.9.1"
+    jsonwebtoken "^8.1.0"
+    pkg-conf "^2.0.0"
+    promise-events "^0.1.3"
+    raven "^2.4.2"
+    resolve "^1.4.0"
+    semver "^5.5.0"
+    uuid "^3.2.1"
+
 probot@7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/probot/-/probot-7.1.1.tgz#b55aaf737b5fdf88f1cd64278601845183dff9ff"
@@ -4392,31 +4418,6 @@ probot@^4.0.0:
     raven "^2.1.2"
     resolve "^1.4.0"
     semver "^5.4.1"
-
-probot@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-7.0.1.tgz#8ee68e0f39b25b840243c7a8b9ae1ce7641fb403"
-  dependencies:
-    "@octokit/rest" "^15.9.4"
-    "@octokit/webhooks" "^3.1.1"
-    bottleneck "^2.4.0"
-    bunyan "^1.8.12"
-    bunyan-format "^0.2.1"
-    bunyan-sentry-stream "^1.1.0"
-    cache-manager "^2.4.0"
-    commander "^2.11.0"
-    dotenv "~6.0.0"
-    express "^4.16.2"
-    express-async-errors "^3.0.0"
-    hbs "^4.0.1"
-    js-yaml "^3.9.1"
-    jsonwebtoken "^8.1.0"
-    pkg-conf "^2.0.0"
-    promise-events "^0.1.3"
-    raven "^2.4.2"
-    resolve "^1.4.0"
-    semver "^5.5.0"
-    uuid "^3.2.1"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
