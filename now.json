@@ -1,3 +1,4 @@
 {
-  "name": "baseui-probot-app-workflow"
+  "name": "baseui-probot-app-workflow",
+  "type": "npm"
 }
