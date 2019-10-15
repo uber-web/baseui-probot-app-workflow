@@ -6,6 +6,9 @@ services:
       - .:/probot-app-workflow
       - /probot-app-workflow/node_modules/
     environment:
+      - APP_ID
+      - WEBHOOK_SECRET
+      - PRIVATE_KEY
       - NOW_TOKEN
       - GH_TOKEN
       - BUILDKITE
