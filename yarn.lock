@@ -3988,12 +3988,6 @@ probot-app-release@1.0.4:
     probot "^3.0.0"
     semver "^5.4.1"
 
-probot-app-todos@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/probot-app-todos/-/probot-app-todos-1.0.5.tgz#68242d54c8ca4875d19570bdafa37795d0555f15"
-  dependencies:
-    probot "^3.0.0"
-
 probot@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/probot/-/probot-4.0.0.tgz#13be6f3e34f761ddf41760225b66a6fa691a1581"

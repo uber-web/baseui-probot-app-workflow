@@ -19,8 +19,7 @@
     "probot-app-pr-title": "^1.1.5",
     "probot-app-release": "1.0.4",
     "probot-app-release-notes": "1.0.6",
-    "probot-app-release-pr-compare": "1.0.1",
-    "probot-app-todos": "1.0.5"
+    "probot-app-release-pr-compare": "1.0.1"
   },
   "probot": {
     "apps": [
@@ -32,7 +31,6 @@
       "probot-app-release",
       "probot-app-release-notes",
       "probot-app-release-pr-compare",
-      "probot-app-todos",
       "probot-app-pr-label"
     ]
   },
