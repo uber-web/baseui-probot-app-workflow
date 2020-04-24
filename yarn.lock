@@ -3968,26 +3968,6 @@ probot-app-pr-title@^1.1.5:
     compromise "11.5.3"
     probot "5.0.1"
 
-probot-app-release-notes@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/probot-app-release-notes/-/probot-app-release-notes-1.0.6.tgz#787d7cdb2e8ca8b77dea8b27b237bcaaccf52f2d"
-  dependencies:
-    node-fetch "^1.7.3"
-    probot "^3.0.0"
-
-probot-app-release-pr-compare@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/probot-app-release-pr-compare/-/probot-app-release-pr-compare-1.0.1.tgz#cffe1a05a247e4d1a14e884b5a4fa57ca4319b5e"
-  dependencies:
-    probot "^3.0.0"
-
-probot-app-release@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/probot-app-release/-/probot-app-release-1.0.4.tgz#6c9d276709bee5d60a91811a055a5ad7597035b2"
-  dependencies:
-    probot "^3.0.0"
-    semver "^5.4.1"
-
 probot@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/probot/-/probot-4.0.0.tgz#13be6f3e34f761ddf41760225b66a6fa691a1581"
